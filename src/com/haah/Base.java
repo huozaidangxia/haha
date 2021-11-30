@@ -1,0 +1,29 @@
+package com.haah;
+
+public class Base {
+	public int i = 1;
+	
+	public Base() {
+		g();
+	}
+	
+	public void f() {
+		System.out.println("base f()");
+	}
+	
+	public void g() {
+		System.out.println("base g()");
+	}
+}
+
+class comm extends Base {
+	public int i = 3;
+	
+	public void f() {
+		System.out.println("comm f()");
+	}
+	
+	public void g() {
+		System.out.println("comm g()");
+	}
+}

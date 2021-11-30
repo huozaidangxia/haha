@@ -9,6 +9,7 @@ public class Base {
 		System.out.println(222);
 		System.out.println(333);
 		System.out.println(6666);
+		System.out.println(777);
 	}
 	
 	public void f() {

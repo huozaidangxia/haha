@@ -1,10 +1,9 @@
 package com.haah;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 
 import org.junit.Test;
+
 
 public class Ref {
 	private int num = 10;
